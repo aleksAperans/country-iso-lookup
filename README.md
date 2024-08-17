@@ -1,3 +1,6 @@
 # Country ISO Lookup
 
-Quick lookup of 3 digit ISO Country Codes
+---
+
+Utilizing [restcountries.com](https://restcountries.com/#endpoints-list-of-codes)
+- Simple extension to quickly lookup and copy a countries 3 digit ISO code.
