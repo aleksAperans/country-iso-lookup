@@ -1,0 +1,42 @@
+{
+  "$schema": "https://www.raycast.com/schemas/extension.json",
+  "name": "country-iso-lookup",
+  "title": "Country ISO Lookup",
+  "description": "Quick lookup of 3 digit ISO Country Codes",
+  "icon": "extension-icon.png",
+  "author": "aleksAperans",
+  "owner": "200_percent",
+  "categories": [
+    "Productivity"
+  ],
+  "license": "MIT",
+  "commands": [
+    {
+      "name": "country-lookup",
+      "title": "country lookup",
+      "subtitle": "Lookup ",
+      "description": "Quick lookup of 3 digit ISO Country Codes",
+      "mode": "view"
+    }
+  ],
+  "dependencies": {
+    "@raycast/api": "^1.69.3",
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {
+    "@raycast/eslint-config": "^1.0.6",
+    "@types/node": "20.8.10",
+    "@types/react": "18.2.27",
+    "eslint": "^8.51.0",
+    "prettier": "^3.0.3",
+    "typescript": "^5.2.2",
+    "@types/node-fetch": "^2.6.1"
+  },
+  "scripts": {
+    "build": "ray build -e dist",
+    "dev": "ray develop",
+    "fix-lint": "ray lint --fix",
+    "lint": "ray lint",
+    "publish": "npx @raycast/api@latest publish"
+  }
+}
