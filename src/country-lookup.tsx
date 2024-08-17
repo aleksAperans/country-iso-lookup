@@ -72,7 +72,7 @@ export default function Command() {
       country.cca3.toLowerCase().includes(searchText.toLowerCase()),
   );
 
-  // Return the user interface for our country lookup tool
+  // Return the user interface for the country lookup tool
   return (
     <List
       isLoading={isLoading}
