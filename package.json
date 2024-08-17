@@ -4,7 +4,7 @@
   "title": "Country ISO Lookup",
   "description": "Quick lookup of 3 digit ISO Country Codes",
   "icon": "extension-icon.png",
-  "author": "Aleks Aperans",
+  "author": "Aleks Aperans <aleksaperans@gmail.com>",
   "owner": "200_percent",
   "categories": [
     "Productivity"
