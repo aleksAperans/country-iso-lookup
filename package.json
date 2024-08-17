@@ -1,21 +1,21 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "name": "country-iso-lookup",
-  "title": "Country ISO Lookup",
-  "description": "Quick lookup of 3 digit ISO Country Codes",
+  "title": "Country Code Search",
+  "description": "Search and find a 3-digit country code",
   "icon": "extension-icon.png",
   "author": "Aleks Aperans <aleksaperans@gmail.com>",
   "owner": "200_percent",
   "categories": [
-    "Productivity"
+    "Web"
   ],
   "license": "MIT",
   "commands": [
     {
       "name": "country-lookup",
-      "title": "country lookup",
-      "subtitle": "Quick lookup of 3 digit ISO Country Codes",
-      "description": "Quick lookup of 3 digit ISO Country Codes",
+      "title": "Country Code Search",
+      "subtitle": "Search and find a 3-digit country code",
+      "description": "Search and find a 3-digit country code",
       "mode": "view"
     }
   ],
